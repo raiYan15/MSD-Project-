@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outfit Predictor</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">STYLE.AI</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Trends</a></li>
+        <li><a href="#">Cultural Picks</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html" class="btn">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>AI-Powered Outfit Prediction</h1>
+    <p>Upload your look & get instant fashion insights with cultural trends.</p>
+    <label class="upload-btn">
+      Upload Outfit
+      <input type="file" id="upload" hidden>
+    </label>
+  </section>
+
+  <!-- Predictions -->
+  <section class="predictions" id="predictions">
+    <h2>Predicted Outfit</h2>
+    <div class="prediction-card">
+      <img id="outfit-img" src="assets/images/sample.jpg" alt="Outfit">
+      <div class="info">
+        <h3 id="outfit-title">Beige Sweater & Wide Pants</h3>
+        <p id="outfit-desc">This cozy neutral-toned outfit is trending in Autumn/Winter 2025, inspired by Scandinavian minimalism and modern office chic.</p>
+        <span class="trend">Trend: Minimalist Cozy Wear</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Style.AI | Fashion by Prediction</p>
+  </footer>
+</body>
+</html>
